@@ -46,3 +46,18 @@ footer ul li {
     margin-left: 15px;
     font-size: 1em;
 }
+
+@media only screen and (max-width: 768px) {
+    .navBar {
+        padding: 10px;
+        background-color: brown;
+    }
+
+    .navBar ul {
+        display: flex;
+    }
+
+    .navBar ul li {
+        margin: 10px;
+    }
+}
