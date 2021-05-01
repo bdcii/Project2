@@ -1,12 +1,15 @@
 {
-  "name": "crowd-funding",
+  "name": "TreysList",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repository for 2nd BCS group project",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdcii/TreysList.git"
   },
   "keywords": [],
   "author": "",
