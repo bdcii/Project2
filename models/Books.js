@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Books extends Model {}
+class Books extends Model { }
 
 Books.init(
   {
@@ -16,28 +16,31 @@ Books.init(
       allowNull: false,
     },
     author: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      version: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      price: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    version: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    price: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     description: {
       type: DataTypes.STRING,
     },
-    email: {
-        type: DataTypes.STRING,
-        allowNull: false,
+    user_email: {
+      type: DataTypes.STRING,
+      references: {
+        model: 'user',
+        key: 'email',
       },
-      location: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
+    },
+    location: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
