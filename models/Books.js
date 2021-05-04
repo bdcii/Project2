@@ -20,7 +20,10 @@ Books.init(
       allowNull: false,
     },
     version: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
+      validate: {
+        LEN:[13],
+      },
       allowNull: false,
     },
     price: {
