@@ -1,18 +1,94 @@
 [
     {
-      "name": "Music Near Me",
-      "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-      "needed_funding": 5000
-    },
-    {
-      "name": "The Ultimate Tech Quiz",
-      "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-      "needed_funding": 10000
-    },
-    {
-      "name": "Roll 'Em Up",
-      "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-      "needed_funding": 800
+        "title": "Being Consumed: Economics and Christian Desire",
+        "author":"William T. Cavanaugh",
+        "isbn":"9780802845610",
+        "price":"20.00",
+        "description":"William Cavanaugh uses Christian resources to incisively address basic economic matters -- the free market, consumer culture, globalization, and scarcity -- arguing that we should not just accept these as givens but should instead change the terms of the debate.",
+        "user_email":"josh@fakemail.com",
+        "location":"Dayton, Ohio",
+        "user_id":"1"
+
+    },{
+        "title": "Covenant Economics: A Biblical Vision of Justice for All",
+        "author":"Richard A. Horsley",
+        "isbn":"9780664233952",
+        "price":"24.50",
+        "description":"Richard Horsley's Covenant Economics explores economic issues in the Bible, offering pastors, students, and laity a clearer understanding of the Bible's clarion call for economic justice for all—an issue that is sure to resonate during today's trying economic times.",
+        "user_email":"josh@fakemail.com",
+        "location":"Dayton, Ohio",
+        "user_id":"1"
+    },{
+        "title": "Desk Reference to the Diagnostic Criteria From DSM-5®",
+        "author":"American Psychiatric Association",
+        "isbn":"9780890425565",
+        "price":" $74.00 ",
+        "description":"The Desk Reference to the Diagnostic Criteria From DSM-5® is a concise, affordable companion to the ultimate psychiatric reference, DSM-5®.",
+        "user_email":"sarak@fakemail.com",
+        "location":"Cincinnati, OH",
+        "user_id":"2"
+    },{
+        "title": "Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships / Edition 3®",
+        "author":"Marshall B. Rosenberg PhD, Deepak Chopra",
+        "isbn":"9781892005281",
+        "price":" $19.95 ",
+        "description":"The Desk Reference to the Diagnostic Criteria From DSM-5® is a concise, affordable companion to the ultimate psychiatric reference, DSM-5®.",
+        "user_email":"sarak@fakemail.com",
+        "location":"Cincinnati, OH",
+        "user_id":"2"
+    },{
+        "title": "DBT Skills Training Manual, Second Edition / Edition 2",
+        "author":"Marsha M. Linehan PhD, ABPP",
+        "isbn":"9781462516995",
+        "price":" $60.00  ",
+        "description":"The book gives complete instructions for orienting clients to DBT, plus teaching notes for the full range of mindfulness, interpersonal effectiveness, emotion regulation, and distress tolerance skills.",
+        "user_email":"chrismail@fakemail.com",
+        "location":"Columbus, OH",
+        "user_id":"3"
+    },{
+        "title": "Delusions of Gender: How Our Minds, Society, and Neurosexism Create Difference",
+        "author":"Cordelia Fine",
+        "isbn":"9780393340242",
+        "price":" $17.95",
+        "description":"Drawing on the latest research in neuroscience and psychology, Cordelia Fine debunks the myth of hardwired differences between men’s and women’s brains, unraveling the evidence behind such claims as men’s brains aren’t wired for empathy and women’s brains aren’t made to fix cars. She then goes one step further, offering a very different explanation of the dissimilarities between men’s and women’s behavior. Instead of a “male brain” and a “female brain,” Fine gives us a glimpse of plastic, mutable minds that are continuously influenced by cultural assumptions about gender.",
+        "user_email":"chrismail@fakemail.com",
+        "location":"Columbus, OH",
+        "user_id":"3"
+    },{
+        "title": "Brain-Disabling Treatments in Psychiatry: Drugs, Electroshock, and the Psychopharmaceutical Complex / Edition 2",
+        "author":"Peter R. Breggin MD",
+        "isbn":"9780826129345",
+        "price":" $85.00",
+        "description":" This edition, twice the size of its predecessor, has been drastically updated and expanded and Breggin has elaborated his concept of medication spellbinding (intoxication anosognosia). The neuroleptic chapters have been updated to include much more material on the newer, atypical drugs, as well as new information on the neurotoxicity and cytotoxicity of all antipsychotic drugs. A massive amount of new information about antidepressant drugs and the stimulant drugs has resulted in a additional chapter on each drug. This new edition concludes with two new chapters on treatment—one on how to safely withdraw from psychiatric drugs and the other about psychosocial and educational approaches to very disturbed people, including 20 guidelines for therapy. He also, for the first time, includes a wealth of "how-to" treatment information.",
+        "user_email":"erica@fakemail.com",
+        "location":"Cleveland, OH",
+        "user_id":"4"
+    },{
+        "title": "Psychopathology and Psychotherapy: DSM-5 Diagnosis, Case Conceptualization, and Treatment / Edition 3",
+        "author":"Len Sperry, Jon Carlson, Jill Duba Sauerheber, Jon Sperry",
+        "isbn":"9780415838733",
+        "price":" $49.95",
+        "description":"Psychopathology & Psychotherapy: DSM-5 Diagnosis, Case Conceptualization, and Treatment, Third Edition differs from other psychopathology and abnormal psychology books. While other books focus on describing diagnostic conditions, this book focus on the critical link between psychopathology and psychotherapy. ",
+        "user_email":"erica@fakemail.com",
+        "location":"Cleveland, OH",
+        "user_id":"4"
+    },{
+        "title": "The Hip Hop Wars: What We Talk About When We Talk About Hip Hop--and Why It Matters",
+        "author":"Tricia Rose",
+        "isbn":"9780465008971",
+        "price":" $16.48",
+        "description":"A potent exploration of a divisive and important subject, The Hip Hop Wars concludes with a call for the regalvanization of the progressive and creative heart of hip hop. ",
+        "user_email":"tiffh@fakemail.com",
+        "location":"Columbus, OH",
+        "user_id":"5"
+    },{
+        "title": "Music therapy in mental health for illness management and recovery",
+        "author":"Michael J. Silverman",
+        "isbn":"9780198735366",
+        "price":" $65.00",
+        "description":"This essential book fills the gap in the literature, providing the necessary breadth and depth to inform readers of the psychotherapeutic research base and show how music therapy can effectively and efficiently function within a clinical scenario. ",
+        "user_email":"tiffh@fakemail.com",
+        "location":"Columbus, OH",
+        "user_id":"5"
     }
-  ]
-  
+]
