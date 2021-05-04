@@ -428,4 +428,16 @@
     color: #065b83;
     text-decoration: underline;
   }
-  
+
+/* custon css */
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#thumbnail {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(173, 173, 173);
+}
