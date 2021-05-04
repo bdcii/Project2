@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const { User } = require('../../models');
+// Write validation for character length for signup form
 
 router.post('/', async (req, res) => {
-  try {
+  try { console.log("howdy");
     const userData = await User.create(req.body);
 
     req.session.save(() => {
@@ -12,6 +13,7 @@ router.post('/', async (req, res) => {
       res.status(200).json(userData);
     });
   } catch (err) {
+    console.log(err);
     res.status(400).json(err);
   }
 });
