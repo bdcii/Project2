@@ -1,11 +1,11 @@
 const router = require('express').Router();
-const { Books, User } = require('../models');
+const { Book , User } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
   try {
     //Pull all books and associated User
-    const bookData = await Books.findAll({
+    const bookData = await Book.findAll({
       include: [
         {
           model: User,
@@ -38,7 +38,7 @@ router.get('/books/:id', async (req, res) => {
       ],
     });
 
-    const book = bookData.get({ plain: true });
+    const books = bookData.get({ plain: true });
 
     res.render('book', {
       ...book,
