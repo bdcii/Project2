@@ -27,10 +27,11 @@ User.init(
       validate: {
         isEmail: true,
       },
-      location: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
+    },
+    location: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true
     },
     password: {
       type: DataTypes.STRING,
