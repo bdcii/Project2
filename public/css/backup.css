@@ -351,6 +351,7 @@
   html,
   body {
     min-height: 100%;
+    background-color: rgb(243, 229, 211);
   }
   
   body {
@@ -420,7 +421,7 @@
   }
   
   a {
-    color: #1b89bc;
+    color: #334750;
     text-decoration: none;
   }
   
@@ -430,6 +431,12 @@
   }
 
 /* custom css */
+header {
+  padding: 0.5em 2em 0.5em 2em;
+  box-shadow: 5px 3px 2px 1px #888888;
+  background-color: rgb(179, 185, 187);
+}
+
 
 .flex-box {
   /* padding: 0 70px 0 70px; */
@@ -441,4 +448,19 @@
   width: 200px;
   height: 250px;
   background-color: rgb(173, 173, 173);
+}
+
+#home-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-icon {
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+}
+
+.book-container {
+  text-align: center;
 }

@@ -1,10 +1,11 @@
 <!-- Loop over each object in the projects array -->
+<div id="home-container">
 {{#each projects as |project| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
-    <h2>
+
+  <div class="book-container">
+    <p class="book-icon">📖</p>
+    <h2 id="book-title">
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
       <a href="/project/{{project.id}}">{{project.name}}</a>
     </h2>
     <p>
@@ -13,12 +14,8 @@
       Cost: $
       <span class="dollar-amount">{{format_amount project.needed_funding}}</span> <!-- books.price  -->
     </p>
-    <p>Posted by {{project.user.name}} on {{format_date project.date_created}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{project.description}}
+    <p>Posted by {{project.user.name}} on {{format_date project.date_created}}
     </p>
   </div>
-</div>
 {{/each}}
+</div>
