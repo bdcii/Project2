@@ -19,10 +19,10 @@ Books.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    version: {
+    isbn: {
       type: DataTypes.INTEGER,
       validate: {
-        LEN:[13],
+        LEN: [13],
       },
       allowNull: false,
     },
@@ -33,6 +33,9 @@ Books.init(
     description: {
       type: DataTypes.STRING,
     },
+    comment: {
+      type: DataTypes.STRING,
+    },
     user_email: {
       type: DataTypes.STRING,
       references: {
@@ -40,18 +43,22 @@ Books.init(
         key: 'email',
       },
     },
-    location: {
+    user_location: {
       type: DataTypes.STRING,
       allowNull: false,
-    },
-    user_id: {
-      type: DataTypes.INTEGER,
       references: {
         model: 'user',
-        key: 'id',
+        key: 'location',
+      }
+    },
+      user_id: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: 'user',
+          key: 'id',
+        },
       },
     },
-  },
   {
     sequelize,
     timestamps: false,
