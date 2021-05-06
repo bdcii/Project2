@@ -45,13 +45,7 @@ Book.init(
       allowNull: false,
      
     },
-    user_location:{
-     type:DataTypes.STRING,
-     references: {
-      model: 'user',
-      key:'location',
-    },
-    },
+  
     user_id: {
       type: DataTypes.INTEGER,
       references: {
