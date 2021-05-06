@@ -27,7 +27,7 @@ Book.init(
       },
     },
     price: {
-      type: DataTypes.STRING,
+      type: DataTypes.DECIMAL,
       allowNull: false,
     },
     description: {

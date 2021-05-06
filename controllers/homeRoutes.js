@@ -29,7 +29,7 @@ router.get('/', async (req, res) => {
 
 router.get('/books/:id', async (req, res) => {
   try {
-    const bookData = await Books.findByPk(req.params.id, {
+    const bookData = await Book.findByPk(req.params.id, {
       include: [
         {
           model: User,
