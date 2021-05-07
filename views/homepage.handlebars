@@ -6,12 +6,13 @@
       <h2 id="book-title">
         <a href="/Books/{{book.id}}">{{book.title}}</a>
       </h2>
-      <p class="top-margin">Author: <span>{{ book.author }}</span></p>
-      <p class="top-margin">
-        Cost: $
-        <span class="dollar-amount">{{format_amount book.price}}</span> <!-- books.price  -->
-      </p>
-      <p class="top-margin">Posted by {{book.user.name}} </p>
+      <div class="p-margin">
+        <p class="top-margin"><span>{{ book.author }}</span></p>
+        <p class="top-margin">Posted by {{book.user.name}} </p>
+        <p class="top-margin">
+          <span class="dollar-amount">${{format_amount book.price}}</span> <!-- books.price  -->
+        </p>
+      </div>
     {{!-- </div> --}}
   </div>
   {{/each}}

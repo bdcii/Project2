@@ -14,6 +14,7 @@
 }
 
 .dollar-amount {
+  font-size: 1.5em;
   color: #0e818a;
   font-weight: bold;
   margin-left: -5px;
@@ -28,9 +29,8 @@ header {
 
 
 .flex-box {
-  /* padding: 0 70px 0 70px; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
 }
 
 #thumbnail {
@@ -40,6 +40,7 @@ header {
 }
 
 #home-container {
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -61,4 +62,51 @@ header {
 
 #book-title {
   font-size: 1.25em;
+}
+
+.book-content {
+  padding-left: 10%;
+}
+
+.p-margin p {
+  margin: 0%;
+  padding: 0%;
+  line-height: 1.5;
+}
+
+.container {
+  margin: auto;
+  padding: 0 10% 0 15%;
+}
+
+.container-login{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20%;
+}
+
+#signup {
+  display: none;
+}
+
+.btn-login {
+  display: none;
+}
+
+#opening{
+  margin:10% 20%;
+  text-align: center;
+}
+
+#main-page{
+  display: block;
+  
+}
+
+#opening h1 {
+  font-size: 3em;
+}
+
+.btn-welcome {
+  margin: 50px;
 }
