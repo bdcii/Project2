@@ -1,24 +1,19 @@
-<!-- Loop over each object in the projects array -->
-{{#each books as |book| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
-      <a href="/books/{{book.id}}">{{book.title}}</a>
-    </h2>
-    <p>
-      {{!-- <span for="img" aria-label="money"></span> --}}
-      <!-- Pass needed_funding value to the helper function -->
-      Cost: $
-      <span class="dollar-amount">{{format_amount book.price}}</span> <!-- books.price  -->
-    </p>
-    <p>Posted by {{book.user.name}} </p>
+<div id="home-container">
+  {{#each books as |book| }}
+  <div class="book-container">
+    <p class="book-icon">📖</p>
+    {{!-- <div class="col-md-5"> --}}
+      <h2 id="book-title">
+        <a href="/Books/{{book.id}}">{{book.title}}</a>
+      </h2>
+      <div class="p-margin">
+        <p class="top-margin"><span>{{ book.author }}</span></p>
+        <p class="top-margin">Posted by {{book.user.name}} </p>
+        <p class="top-margin">
+          <span class="dollar-amount">${{format_amount book.price}}</span> <!-- books.price  -->
+        </p>
+      </div>
+    {{!-- </div> --}}
   </div>
-  <div class="col-md-7">
-    <p>
-      {{book.description}}
-    </p>
-  </div>
+  {{/each}}
 </div>
-{{/each}}
