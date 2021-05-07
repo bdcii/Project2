@@ -38,7 +38,7 @@ router.get('/books/:id', async (req, res) => {
       ],
     });
 
-    const books = bookData.get({ plain: true });
+    const book = bookData.get({ plain: true });
 
     res.render('book', {
       ...book,
@@ -55,7 +55,7 @@ router.get('/profile', withAuth, async (req, res) => {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Books }],
+      include: [{ model: Book }],
     });
 
     const user = userData.get({ plain: true });
