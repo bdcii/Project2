@@ -1,14 +1,20 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const name = document.querySelector('#project-name').value.trim();
-  const needed_funding = document.querySelector('#project-funding').value.trim();
-  const description = document.querySelector('#project-desc').value.trim();
+  const title = document.querySelector('#book-title').value.trim();
+  const author = document.querySelector('#book-author').value.trim();
+  const isbn = document.querySelector('#book-isbn').value.trim();
+  const price = document.querySelector('#book-price').value.trim();
+  const description = document.querySelector('#book-desc').value.trim();
+  const user_email = document.querySelector('#book-email').value.trim();
+  const location = document.querySelector('#book-location').value.trim();
+  
+ 
 
-  if (name && needed_funding && description) {
+  if (title && author && isbn && price && description && user_email && location) {
     const response = await fetch(`/api/books`, {
       method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description }),
+      body: JSON.stringify({ title, author, isbn, price, description, user_email,location,}),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -26,7 +32,7 @@ const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
 
-    const response = await fetch(`/api/projects/${id}`, {
+    const response = await fetch(`/api/books/${id}`, {
       method: 'DELETE',
     });
 
