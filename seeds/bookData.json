@@ -4,7 +4,8 @@
         "author":"William T. Cavanaugh",
         "isbn":9780802845610,
         "price":20.00,
-        "description":"description",
+        "description":"Should Christians be for or against the free market? 
+        For or against globalization? How are we to live in a world of scarcity?",
         "user_email":"josh@fakemail.com",
         "location":"Dayton, Ohio",
         "user_id":1
@@ -14,7 +15,10 @@
         "author":"Richard A. Horsley",
         "isbn":9780664233952,
         "price":24.50,
-        "description":"description",
+        "description":"Richard Horsley's Covenant Economics explores economic issues in the 
+        Bible, offering pastors, students, and laity a clearer understanding of the Bible's 
+        clarion call for economic justice for all--an issue that is sure to resonate during 
+        today's trying economic times.",
         "user_email":"josh@fakemail.com",
         "location":"Dayton, Ohio",
         "user_id":1
@@ -23,7 +27,10 @@
         "author":"American Psychiatric Association",
         "isbn":9780890425565,
         "price":74.00,
-        "description":"description",
+        "description":"The Desk Reference to the Diagnostic Criteria From DSM-5® is a concise, 
+        affordable companion to the ultimate psychiatric reference, DSM-5®. It includes the fully 
+        revised diagnostic classification, as well as all of the diagnostic criteria from DSM-5® 
+        in an easy-to-use paperback format.",
         "user_email":"sarak@fakemail.com",
         "location":"Cincinnati, OH",
         "user_id":2
@@ -32,7 +39,11 @@
         "author":"Marshall B. Rosenberg PhD, Deepak Chopra",
         "isbn":9781892005281,
         "price":19.95,
-        "description":"description",
+        "description":"If “violent” means acting in ways that result in hurt or harm, then much of 
+        how we communicate—judging others, bullying, having racial bias, blaming, finger pointing, 
+        discriminating, speaking without listening, criticizing others or ourselves, name-calling, 
+        reacting when angry, using political rhetoric, being defensive or judging who’s “good/bad” 
+        or what’s “right/wrong” with people—could indeed be called “violent communication.”",
         "user_email":"sarak@fakemail.com",
         "location":"Cincinnati, OH",
         "user_id":2
