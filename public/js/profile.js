@@ -23,7 +23,8 @@ const newFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/profile');
     } else {
-      alert('Failed to create project');
+      console.log(err);
+      alert('Failed to create listing');
     }
   }
 };
@@ -39,15 +40,15 @@ const delButtonHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/profile');
     } else {
-      alert('Failed to delete project');
+      alert('Failed to delete posting');
     }
   }
 };
 
 document
-  .querySelector('.new-project-form')
+  .querySelector('.new-book-form')
   .addEventListener('submit', newFormHandler);
 
 document
-  .querySelector('.project-list')
+  .querySelector('.book-list')
   .addEventListener('click', delButtonHandler);
