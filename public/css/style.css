@@ -56,7 +56,7 @@ header {
 
 .book-container {
   padding: 20px;
-  width: 20vw;
+  width: 300px;
   align-items: center;
 }
 
@@ -109,4 +109,44 @@ header {
 
 .btn-welcome {
   margin: 50px;
+}
+
+@media screen and (max-width: 640px) {
+  .flex-box {
+    display: block;
+    text-align: center;
+  }
+  #thumbnail {
+    margin: auto;
+    align-items: center;
+  }
+  .container {
+    margin: auto;
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-box {
+    display: block;
+    text-align: center;
+  }
+  #thumbnail {
+    margin: auto;
+  }
+  .container {
+    margin: auto;
+    padding: 0 10% 0 10%;
+  }
+  .book-content {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
 }
