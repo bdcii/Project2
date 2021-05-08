@@ -25,11 +25,20 @@ Even in this digital age, college students everywhere are required to purchase e
 GitHub Repository: https://github.com/bdcii/TreysList
 
 ## Heroku
-Heroku Deployment
+Heroku Deployment: https://treyslist.herokuapp.com
 
 ## Images
 Home Page
+![Trey's List Home Page](/assets/Image-1-Homepage.jpg)
 
 Book Page
+![Book Page](/assets/Image-2-One-Book.jpg)
+
+User Profile Page
+![User Profile](/assets/Image-3-User-Profile.jpg)
+
+Mobile Friendly View
+![Mobile Friendly View](/assets/Image-4-Mobile-Friendly.jpg)
 
 Login Page
+![Login Page](/assets/Image-5-Login-Page.jpg)
