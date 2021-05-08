@@ -112,13 +112,24 @@ header {
 }
 
 .profile-new-book-form {
+  margin: 1em;
   padding: 1em;
-  border: black;
+  border: rgb(94, 94, 94);
   border-style: solid;
+  border-radius: 1%;
+  background-color: rgb(238, 234, 227);
 }
 
 #profile-container {
   margin: 3%;
+}
+
+.current-post {
+  margin: 1em;
+  border: rgb(94, 94, 94);
+  border-style: solid;
+  border-radius: 1%;
+  background-color: rgb(238, 234, 227);
 }
 
 @media screen and (max-width: 640px) {
