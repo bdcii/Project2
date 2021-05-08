@@ -23,7 +23,7 @@
 /* custom css */
 header {
   padding: 0.5em 2em 0.5em 2em;
-  box-shadow: 5px 3px 2px 1px #888888;
+  box-shadow: 0px 2px 9px 0px #888888;
   background-color: rgb(179, 185, 187);
 }
 
@@ -31,6 +31,15 @@ header {
 .flex-box {
   display: flex;
   /* justify-content: space-evenly; */
+}
+
+.book-box {
+  margin: 1em;
+  padding: 1em;
+  border: rgb(94, 94, 94);
+  border-style: solid;
+  border-radius: 1%;
+  background-color: rgb(238, 234, 227);
 }
 
 #thumbnail {
@@ -58,6 +67,11 @@ header {
   padding: 20px;
   width: 300px;
   align-items: center;
+  margin: 1em;
+  border: rgb(94, 94, 94);
+  border-style: solid;
+  border-radius: 1%;
+  background-color: rgb(238, 234, 227);
 }
 
 #book-title {
@@ -76,7 +90,15 @@ header {
 
 .container {
   margin: auto;
-  padding: 0 10% 0 15%;
+  padding: 0 10% 0 10%;
+}
+
+.login-box {
+  padding: 2em;
+  border: rgb(94, 94, 94);
+  border-style: solid;
+  border-radius: 1%;
+  background-color: rgb(238, 234, 227);
 }
 
 .container-login{
@@ -111,6 +133,27 @@ header {
   margin: 50px;
 }
 
+.profile-new-book-form {
+  margin: 1em;
+  padding: 1em;
+  border: rgb(94, 94, 94);
+  border-style: solid;
+  border-radius: 1%;
+  background-color: rgb(238, 234, 227);
+}
+
+#profile-container {
+  margin: 3%;
+}
+
+.current-post {
+  margin: 1em;
+  border: rgb(94, 94, 94);
+  border-style: solid;
+  border-radius: 1%;
+  background-color: rgb(238, 234, 227);
+}
+
 @media screen and (max-width: 640px) {
   .flex-box {
     display: block;
@@ -123,6 +166,9 @@ header {
   .container {
     margin: auto;
     padding: 0 10% 0 10%;
+  }
+  .col-auto{
+    text-align: center;
   }
 }
 
@@ -140,6 +186,24 @@ header {
   }
   .book-content {
     padding: 0;
+  }
+  .col-auto{
+    text-align: center;
+  }
+  .profile-new-book-form {
+    margin: 1em 0 0 0;
+    padding: 1em;
+    border: rgb(94, 94, 94);
+    border-style: solid;
+    border-radius: 1%;
+    background-color: rgb(238, 234, 227);
+  }
+  .current-post {
+    margin: 1em 0 0 0;
+    border: rgb(94, 94, 94);
+    border-style: solid;
+    border-radius: 1%;
+    background-color: rgb(238, 234, 227);
   }
 }
 
