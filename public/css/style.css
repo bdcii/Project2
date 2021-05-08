@@ -111,6 +111,16 @@ header {
   margin: 50px;
 }
 
+.profile-new-book-form {
+  padding: 1em;
+  border: black;
+  border-style: solid;
+}
+
+#profile-container {
+  margin: 3%;
+}
+
 @media screen and (max-width: 640px) {
   .flex-box {
     display: block;
@@ -123,6 +133,9 @@ header {
   .container {
     margin: auto;
     padding: 0 10% 0 10%;
+  }
+  .col-auto{
+    text-align: center;
   }
 }
 
@@ -140,6 +153,9 @@ header {
   }
   .book-content {
     padding: 0;
+  }
+  .col-auto{
+    text-align: center;
   }
 }
 
