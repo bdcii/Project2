@@ -23,7 +23,7 @@ const newFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/profile');
     } else {
-      console.log(err);
+      response.json(err);
       alert('Failed to create listing');
     }
   }
