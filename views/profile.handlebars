@@ -8,18 +8,18 @@
   <div class="col-md-6">
     <h3>Post a new book:</h3>
 
-    <form class="form new-project-form">
+    <form class="form new-book-form">
       <div class="form-group">
         <label for="book-title">Book Title</label>
         <input class="form-input" type="text" id="book-title" name="book-title" />
       </div>
       <div class="form-group">
         <label for="book-author">Author:</label>
-        <input class="form-input" type="text" id="book-author" name="book-author" />
+        <input class="form-input" type="text" id="book-author" placeholder="first last" name="book-author" />
         
       <div class="form-group">
-        <label for="book-isbn">ISBN (13 digit)</label>
-        <input class="form-input" type="number" id="book-isbn" name="book-isbn" />
+        <label for="book-isbn">ISBN </label>
+        <input class="form-input" type="number" id="book-isbn" placeholder="must be 13 digits" name="book-isbn" />
       </div>
       <div class="form-group">
         <label for="book-price">Price</label>
@@ -44,13 +44,13 @@
   </div>
 
   {{#if books.length}}
-  <div class="col-md-6 project-list">
+  <div class="col-md-6 book-list">
     <h3>Current Posts</h3>
 
     {{#each books as |book|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/books/{{book.id}}">{{book.name}}</a></h4>
+        <h4><a href="/books/{{book.id}}">{{book.title}}</a></h4>
       </div>
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{book.id}}">DELETE</button>
