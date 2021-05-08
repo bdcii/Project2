@@ -4,7 +4,7 @@
         "author":"William T. Cavanaugh",
         "isbn":9780802845610,
         "price":20.00,
-        "description":"description",
+        "description":"Should Christians be for or against the free market? For or against globalization?",
         "user_email":"josh@fakemail.com",
         "location":"Dayton, Ohio",
         "user_id":1
@@ -14,7 +14,7 @@
         "author":"Richard A. Horsley",
         "isbn":9780664233952,
         "price":24.50,
-        "description":"description",
+        "description":"Richard Horsley's Covenant Economics explores economic issues in the Bible, offering pastors, students, and laity a clearer understanding...",
         "user_email":"josh@fakemail.com",
         "location":"Dayton, Ohio",
         "user_id":1
@@ -23,7 +23,7 @@
         "author":"American Psychiatric Association",
         "isbn":9780890425565,
         "price":74.00,
-        "description":"description",
+        "description":"The Desk Reference to the Diagnostic Criteria From DSM-5® is a concise, affordable companion to the ultimate psychiatric reference, DSM-5®.",
         "user_email":"sarak@fakemail.com",
         "location":"Cincinnati, OH",
         "user_id":2
@@ -32,7 +32,7 @@
         "author":"Marshall B. Rosenberg PhD, Deepak Chopra",
         "isbn":9781892005281,
         "price":19.95,
-        "description":"description",
+        "description":"If violent means acting in ways that result in hurt or harm, then much of how we communicate—judging others, bullying, having racial bias, blaming, finger pointing, discriminating,...",
         "user_email":"sarak@fakemail.com",
         "location":"Cincinnati, OH",
         "user_id":2
@@ -41,7 +41,7 @@
         "author":"Marsha M. Linehan PhD, ABPP",
         "isbn":9781462516995,
         "price":60.00,
-        "description":"description",
+        "description":"From Marsha M. Linehan—the developer of dialectical behavior therapy (DBT)—this comprehensive resource provides vital tools for implementing DBT skills training.",
         "user_email":"chrismail@fakemail.com",
         "location":"Columbus, OH",
         "user_id":3
@@ -50,7 +50,7 @@
         "author":"Cordelia Fine",
         "isbn":9780393340242,
         "price":17.95,
-        "description":"description",
+        "description":"Delusions of Gender: How Our Minds, Society, and Neurosexism Create Difference is a 2010 book by Cordelia Fine, written to debunk the idea that men and women are hardwired with different interests.",
         "user_email":"chrismail@fakemail.com",
         "location":"Columbus, OH",
         "user_id":3
@@ -59,7 +59,7 @@
         "author":"Peter R. Breggin MD",
         "isbn":9780826129345,
         "price":85.00,
-        "description":"description",
+        "description":"Peter Breggin is the conscience of American psychiatry. Once more he updates us on the real evidence with respect to the safety and effectiveness of specific psychiatric medications and ECT.",
         "user_email":"erica@fakemail.com",
         "location":"Cleveland, OH",
         "user_id":4
@@ -68,7 +68,7 @@
         "author":"Len Sperry, Jon Carlson, Jill Duba Sauerheber, Jon Sperry",
         "isbn":9780415838733,
         "price":49.95,
-        "description":"description",
+        "description":"Psychopathology & Psychotherapy: DSM-5 Diagnosis, Case Conceptualization, and Treatment, Third Edition differs from other psychopathology and abnormal psychology books.",
         "user_email":"erica@fakemail.com",
         "location":"Cleveland, OH",
         "user_id":4
@@ -77,7 +77,7 @@
         "author":"Tricia Rose",
         "isbn":9780465008971,
         "price":16.48,
-        "description":"description ",
+        "description":"Hip hop is a distinctive form of black art in America-from Tupac to the Pulitzer Prize-winning Kendrick Lamar, hip hop has long given voice to the African American experience.",
         "user_email":"tiffh@fakemail.com",
         "location":"Columbus, OH",
         "user_id":5
@@ -86,7 +86,7 @@
         "author":"Michael J. Silverman",
         "isbn":9780198735366,
         "price":65.00,
-        "description":"description",
+        "description":"This essential book fills the gap in the literature, providing the necessary breadth and depth to inform readers of the psychotherapeutic research base.",
         "user_email":"tiffh@fakemail.com",
         "location":"Columbus, OH",
         "user_id":5
